@@ -1,0 +1,25 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "javascript 工具库",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanlid/utils.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanlid/utils/issues"
+  },
+  "homepage": "https://github.com/ryanlid/utils#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
