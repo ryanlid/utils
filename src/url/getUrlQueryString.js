@@ -5,7 +5,7 @@
  * @param {*} path
  * @returns
  */
-function getUrlQueryString(name,path =window.location.search) {
+function getUrlQueryString(name, path = window.location.search) {
   var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
   var r = path.substr(1).match(reg);
   if (r != null) {
