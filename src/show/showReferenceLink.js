@@ -22,4 +22,4 @@ function showReferenceLink(arr, link = 'link', word = 'word') {
   document.body.append(LinkEl)
 }
 
-module.experts = showReferenceLink
+module.exports = showReferenceLink
