@@ -19,7 +19,7 @@ function showQrcode(val) {
   if (typeof val === "object" && !Array.isArray(val)) {
     Object.assign(param, val);
   }
-  var imgUrl = `https://api.oonnnoo.com/qr/qrcode?text=${encodeURIComponent(
+  var imgUrl = `https://www.yidiankuaile.com/v1/qrcode?data=${encodeURIComponent(
     param.url
   )}&size=${param.size}`;
 
